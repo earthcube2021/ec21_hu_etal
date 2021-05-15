@@ -3,9 +3,8 @@ channels:
   - conda-forge
 dependencies:
   - numpy
-  - psutil
-  - toolz
-  - matplotlib
-  - dill
   - pandas
-  - plotly
+  - cartopy
+  - matplotlib
+  - pip:
+    - git+https://github.com/Weiming-Hu/PyAnEn.git

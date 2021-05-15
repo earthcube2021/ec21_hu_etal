@@ -1,11 +1,13 @@
-# EarthCube Notebook Template
-Using this notebook template is recommended for submissions to EarthCube events and competitions.<br>
+# EarthCube 2021 Annual Meeting Presentation: Spatio-Temporal Deep Analogs
 
-The template comes in two versions. The short version includes just the rubrics with minimal instructions. The long version includes submission instructions, formatting examples, and references.
+## Introduction
 
-Any of these template versions can be installed in your Jupyter environment using the jupytemplate extension (as described in the long version), so that you start a new notebook with the template. Alternatively, you can copy and paste the rubrics into your notebook.
+This repository is created for the presentation at the [2021 EarthCube Annual Meeting](2021 EarthCube Annual Meeting).
 
-If you develop in languages other than Python, or use specialized environments to run your notebooks, please follow the rubrics and customize as needed.
+The presenter is [Weiming Hu](https://weiming-hu.github.io/).
 
+## How to Run
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/earthcube/NotebookTemplates/HEAD)
+Please start an interactive Jupyter notebook session by clicking the below icon.
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Weiming-Hu/EarthCube2021/HEAD)
