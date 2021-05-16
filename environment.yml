@@ -8,5 +8,5 @@ dependencies:
   - netCDF4
   - xarray
   - pip:
-    - matplotlib
+    - matplotlib==3.2
     - git+https://github.com/Weiming-Hu/PyAnEn.git
