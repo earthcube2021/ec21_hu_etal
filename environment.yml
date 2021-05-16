@@ -1,4 +1,4 @@
-name: example-environment
+name: earthcube
 channels:
   - conda-forge
 dependencies:
@@ -6,7 +6,6 @@ dependencies:
   - pandas
   - cartopy
   - matplotlib
-  - pip
   - netCDF4
   - xarray
   - properscoring
