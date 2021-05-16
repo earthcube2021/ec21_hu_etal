@@ -1,4 +1,6 @@
-# EarthCube 2021 Annual Meeting Presentation: Spatio-Temporal Deep Analogs
+# Spatio-Temporal Deep Analogs
+
+_EarthCube 2021 Annual Meeting Presentation_
 
 ## Introduction
 
