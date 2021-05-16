@@ -12,4 +12,4 @@ The presenter is [Weiming Hu](https://weiming-hu.github.io/).
 
 Please start an interactive Jupyter notebook session by clicking the below icon.
 
-[![Binder](https://mybinder.org/v2/gh/Weiming-Hu/EarthCube2021/HEAD?filepath=WH_01_Spatio-Temporal_Deep_Analogs_2021.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Weiming-Hu/EarthCube2021/HEAD?filepath=WH_01_Spatio-Temporal_Deep_Analogs_2021.ipynb)
