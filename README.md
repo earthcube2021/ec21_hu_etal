@@ -6,6 +6,8 @@ _EarthCube 2021 Annual Meeting Presentation_
 
 This repository is created for the presentation at the [2021 EarthCube Annual Meeting](https://web.cvent.com/event/6589b2a2-9fd5-4e0b-a214-e0ba1c6348fe/summary).
 
+It introduces the Analog Ensemble and the Deep Analog with a spatio-temporal neural network, specifically a convolutional LSTM network. The notebook showcases how forecast ensembles differ for the two techniques.
+
 The presenter is [Weiming Hu](https://weiming-hu.github.io/).
 
 ## How to Run
