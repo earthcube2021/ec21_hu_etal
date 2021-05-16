@@ -2,7 +2,7 @@ name: earthcube
 channels:
   - conda-forge
 dependencies:
-  - PIL=7.1.2
+  - PIL==7.1.2
   - numpy
   - pandas
   - cartopy
