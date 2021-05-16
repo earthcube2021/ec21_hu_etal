@@ -6,5 +6,9 @@ dependencies:
   - pandas
   - cartopy
   - matplotlib
+  - pip
+  - netCDF4
+  - xarray
+  - properscoring
   - pip:
     - git+https://github.com/Weiming-Hu/PyAnEn.git
