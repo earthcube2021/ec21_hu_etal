@@ -2,11 +2,16 @@ name: earthcube
 channels:
   - conda-forge
 dependencies:
-  - pillow
   - numpy
+  - psutil
+  - toolz
+  - matplotlib
+  - dill
+  - partd
+  - bokeh
+  - dask
   - pandas
   - cartopy
-  - matplotlib
   - netCDF4
   - xarray
   - properscoring
