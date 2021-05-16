@@ -1,0 +1,7 @@
+numpy
+matplotlib
+pandas
+cartopy
+netCDF4
+xarray
+git+https://github.com/Weiming-Hu/PyAnEn.git
