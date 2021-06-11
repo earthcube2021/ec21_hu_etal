@@ -256,6 +256,7 @@ def get_attribution(*datetimes, best_feature_index=None, use_baseline=False, n_s
     
     return inputs, attribution, best_feature_index
 
+
 def plot_feature(feature_index, center1, center2, center3, n_nbs, embeddings, datetimes, fcst_ds, obs_ds):
     
     obs = obs_ds['Data'].squeeze('num_stations').sel(num_parameters='dw_solar', num_times=datetimes + timedelta(seconds=3600 * 18)).data
@@ -266,7 +267,7 @@ def plot_feature(feature_index, center1, center2, center3, n_nbs, embeddings, da
 
     #### Visualization ####
 
-    fig = plt.figure(figsize=(19, 13))
+    fig = plt.figure(figsize=(22, 15))
     gs = matplotlib.gridspec.GridSpec(6, 8)
 
     ax_left_top = fig.add_subplot(gs[:, :3])
@@ -308,9 +309,20 @@ def plot_feature(feature_index, center1, center2, center3, n_nbs, embeddings, da
             for j in range(4, 6) for i in range(3, 8)]
     im = plot_cluster(datetimes, fcst_ds, obs_ds, center3_nbs, axes, vmin=vmin, vmax=vmax, label_start=22)
 
-    fig.subplots_adjust(left=0.068, right=0.92, bottom=0.06, top=0.99, wspace=0, hspace=0)
+    fig.subplots_adjust(left=0.068, right=0.92, bottom=0.06, top=0.99, wspace=0.04, hspace=0.08)
     cbar_ax = fig.add_axes([0.925, 0.06, 0.01, 0.93])
     cbar = fig.colorbar(im, cax=cbar_ax)
     cbar.set_label('Solar irradiance [$W/m^2$]')
+    
+    anchor_left = 0.388
+    box_height = 0.309
+    box_width = 0.532
+    fig.patches.extend([plt.Rectangle((anchor_left,0.685), box_width, box_height, fill=False, color='lightgreen',
+                                      linewidth=5, zorder=1000, transform=fig.transFigure, figure=fig)])
+    fig.patches.extend([plt.Rectangle((anchor_left,0.370), box_width, box_height, fill=False, color='red',
+                                      linewidth=5, zorder=1000, transform=fig.transFigure, figure=fig)])
+    fig.patches.extend([plt.Rectangle((anchor_left,0.056), box_width, box_height, fill=False, color='lightblue',
+                                      linewidth=5, zorder=1000, transform=fig.transFigure, figure=fig)])
 
     fig.show()
+    
