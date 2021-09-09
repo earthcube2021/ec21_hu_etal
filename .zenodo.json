@@ -1,0 +1,10 @@
+{
+    "title": "Machine Learning Guided Weather Analogs",
+    "creators": [
+            {"name": "Weiming Hu", "affiliation": "Department of Geography, The Pennsylvania State University",   "orcid": "0000-0003-4501-1435"},
+    {"name": "Guido Cervone", "affiliation": "Department of Geography, The Pennsylvania State University"},
+    {"name": "George S. Young", "affiliation": "Department of Meteorology and Atmospheric Science, The Pennsylvania State University"},
+    {"name": "Luca Delle Monache", "affiliation": "Scripps Institution of Oceanography, University of California, San Diego"}
+    ],
+    "keywords": ["Ensemble Forecast", "Analog Ensemble", "Machine Learning", "Renewable Energy", "Solar Irradiance"]
+}
