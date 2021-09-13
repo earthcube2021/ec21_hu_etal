@@ -1,5 +1,9 @@
 # Machine Learning Guided Weather Analogs
 
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5496385.svg)](https://doi.org/10.5281/zenodo.5496385)
+
+
 _EarthCube 2021 Annual Meeting Presentation_
 
 ## Abstract
